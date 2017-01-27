@@ -1,6 +1,7 @@
 plugins=(git z sublime osx gradle git-extras gitfast dirhistory brew)
 
 alias ow='open -b com.jetbrains.webstorm .'
+alias mergecheck="npm run tslint; npm run stylelint; npm run build; npm run aot; npm run test-single"
 
 PROMPT_SUCCESS_COLOR=$FG[117]
 PROMPT_FAILURE_COLOR=$FG[124]
