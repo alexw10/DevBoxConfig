@@ -1,6 +1,6 @@
 plugins=(git z sublime osx gradle git-extras gitfast dirhistory brew)
 
-alias oj='open -b wstorm .'
+alias ow='open -b com.jetbrains.webstorm .'
 
 PROMPT_SUCCESS_COLOR=$FG[117]
 PROMPT_FAILURE_COLOR=$FG[124]
